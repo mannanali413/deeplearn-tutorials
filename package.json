@@ -1,0 +1,29 @@
+{
+  "name": "deeplearn-tutorials",
+  "version": "1.0.0",
+  "description": "Mir Mufaqam Ali deeplearn.js tutorials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prep": "npm install && mkdirp dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannanali413/deeplearn-tutorials.git"
+  },
+  "author": "Mir Ali (mannanali413@gmail.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mannanali413/deeplearn-tutorials/issues"
+  },
+  "homepage": "https://github.com/mannanali413/deeplearn-tutorials#readme",
+  "dependencies": {
+    "babel-polyfill": "~6.26.0",
+    "deeplearn": "~0.3.9"
+  },
+  "devDependencies": {
+    "babel-plugin-syntax-async-functions": "~6.13.0",
+    "babel-plugin-transform-regenerator": "~6.26.0",
+    "babel-preset-es2015": "~6.24.1"
+  }
+}
