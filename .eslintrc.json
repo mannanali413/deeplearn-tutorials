@@ -1,0 +1,16 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+    	"browser": true,
+    	"node": true
+    },
+    "rules": {
+        // enable additional rules
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+        // disable rules from base configurations
+        "no-console": "off"
+    }
+}
